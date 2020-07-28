@@ -1,0 +1,30 @@
+body {
+	margin: 0px;
+}
+.Container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: 'Dancing Script';
+	font-size: 3em;
+	border-bottom: 2px solid pink; /*gives the border below the text */
+	border-right: 2px solid pink; /*gives the border that joined at the right*/
+	width: 700px; /*the width of the border (lengh and all)*/
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888; /*shadow thingy at that makes the thing look 3D ish */
+	margin-top: 5px;
+}
+
+img	{
+	width: 450px;
+	height: 350px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
